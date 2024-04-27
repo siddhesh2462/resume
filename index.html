@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<head>
+    <title>siddhesh protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(2, 1, 17);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: #05053b;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 24px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(95, 95, 228);
+            font-size: 1.04rem;
+        }
+
+        .right {
+            font-size: 1.7rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 90px 0;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+
+        }
+
+        .leftsection {
+
+            font-size: 3rem;
+
+        }
+
+        .rightsection img {
+
+            width: 100%;
+
+
+        }
+
+        .purple {
+            color: rgb(78, 31, 122);
+        }
+
+        #element {
+            color: rgb(78, 31, 122);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+
+            background-color: red;
+            margin: 40px 85px;
+        }
+
+        .secondsection pre {
+            font-size: 1rem;
+            font-family: 'poppins'
+
+        }
+
+        main hr {
+            height: 5px;
+        }
+        .footer {
+    background-color: #05053b;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+}
+.footer {
+    background-color: #05053b;
+    color: white;
+    padding: 50px 0;
+    animation: slideInUp 0.5s ease-out;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.leftsection .buttons{
+    padding: 30px;
+}
+.leftsection .btn{
+    background-color: #d11ab9;
+    padding: 12px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+        
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right"><b>Siddhesh's Protfolio</b></div>
+            <div class="left">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name Is<spam class="purple"> Siddhesh</spam>
+                <div>
+                    And I Am a Passionate
+
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+<button class="btn">Download Resume</button>
+<button class="btn"> Visit Github</button>
+
+                </div>
+            </div>
+
+
+            <div class="rightsection">
+
+                <img src="js.png" alt="Image" width="130%">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">
+                What I Have Done So Far
+            </span>
+            <h1>Education</h1>
+
+
+
+
+            <pre>
+
+                    <b>Savitribai Phule Pune University</b>
+                       Bachelor of Business Administration in Computer Application , Computer Science
+                       Sep 2023 - Feb 2027
+           
+                    <b>MIT Arts, Commerce & Science College ( MITACSC )</b>
+                       Bachelor of computer application , None
+                       Jun 2023 - Present
+           
+                    <b>Mahatma Gandhi University</b>
+                       Bachelor's degree, 12th science
+
+
+        </pre>
+            <div class="box" style="background-color: antiquewhite; width: 80vw; height: 1px; margin: 56px 0;">
+
+
+            </div>
+        
+
+        </section>
+
+    </main>
+   
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphic Designer..', 'Web designer...', 'Thumbnail designer....', 'Digital Marketing......'],
+            typeSpeed: 50,
+        });
+    </script>
+<footer>
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h2><a href="">About Me</a></h2>
+                    <p>Learn more about Siddhesh and his work.</p>
+                </div>
+                <div class="footer-section">
+                    <h2><a href=""> Projects</a></h2>
+                    <p>Explore Siddhesh's recent work and projects.</p>
+                </div>
+                <div class="footer-section">
+                    <h2><a href="">Contact</a></h2>
+                    <p>Get in touch with Siddhesh for collaborations or inquiries.</p>
+                </div>
+                <div class="footer-section">
+                    <h2><a href=""> Me</a></h2>
+                    <p>Stay updated with Siddhesh's latest updates on social media.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</footer>
+</body>
+
+</html>
